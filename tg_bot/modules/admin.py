@@ -198,7 +198,7 @@ def adminlist(bot: Bot, update: Update):
         if user.username:
             name = "[{}](tg://user?id={})".format(user.first_name + (user.last_name or ""), user.id)
         if status == "creator":
-            text += "\n 🔱 Creator:"
+            text += "\n  ︎【♕】Creator:"
             text += "\n` • `{} \n\n 🔰 Admin:".format(name)
     for admin in administrators:
         user = admin.user
